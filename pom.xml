@@ -8,6 +8,12 @@
          <groupId>io.github.awesomestcode</groupId>
          <artifactId>AdventPlugin</artifactId>
          <version>0.1-SNAPSHOT</version>
+         <resources>
+                  <resource>
+                           <directory>src/main/resources</directory>
+                           <filtering>true</filtering>
+                  </resource>
+         </resources>
          <repositories>
          <!-- This adds the Spigot Maven repository to the build -->
                   <repository>
