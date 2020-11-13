@@ -6,7 +6,7 @@ public class SpigotPlugin extends JavaPlugin {
 
   @Override
   public void onEnable {
-    //add the stuff here 
+    getCommand("claim").setExecutor(new CommandClaim());
   }
 
 }
