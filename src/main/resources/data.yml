@@ -1,0 +1,3 @@
+#Time the user last claimed their reward
+lastClaimDate:
+  alex: "01-01-1970"
